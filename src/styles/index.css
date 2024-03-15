@@ -1,3 +1,45 @@
 /* 
     General Styles
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+   
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(70deg, #678dff, #fee768);
+  }
+
+
+h5 {
+    font-size: 1rem;
+}
+
+/* Estilo de la barra de desplazamiento */
+::-webkit-scrollbar {
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 15px;
+}
+
+/* Estilo de la manija de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 194, 28); /* Gradiente de verde a un tono más oscuro (horizontal) */
+    border-left: 100px solid; /* Ancho del borde izquierdo */
+    border-image: rgb(255, 194, 28); /* Gradiente vertical de gris a negro */
+    border-image-slice: 1; /* Utiliza el gradiente en toda la anchura del borde izquierdo */
+    border-radius: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(220, 220, 220, 0.397); /* Color de fondo gris del margen */
+}
+
+.bg-gra {
+    background: rgb(255, 194, 28)
+  }
+
+.noPicture{
+    width: 286px;
+    height: 286px;
+}
